@@ -3,6 +3,7 @@ const fs = require("fs"); //file system
 const path = require("path");
 
 const { v4: uuidv4 } = require("uuid");
+const util = require("util");
 
 router.get("/notes", (req, res) => {
   fs.readFile("db/db.json", "utf-8", (err, data) => {
@@ -38,12 +39,23 @@ router.post("/notes", (req, res) => {
   });
 });
 
-router.delete("/delete-post", (req, res) => {
-  // get the db.json file just as above
-  // jsonify it just as above
-  // in the array of objects returned, get the one matching your id from the request
-  // remove it from the array
-  // save the array back in db.json just as above
+router.delete("/api/notes/:id", (req, res) => {
+  let deleteId = req.params.id;
+
+  util
+    .promisify(fs.readFile("./db/db.json"))
+    .then((data) => JSON.parse(data))
+    .then((json) => {
+      const result = json.filter((note) => note.id !== deleteId);
+      console.log(result);
+      writetoFile("./db/db.json", result);
+      res.json("Note has been deleted 🗑️");
+    });
 });
 
 module.exports = router;
+
+// const deleteInfo = JSON.parse(data); // jsonify it just as above
+// in the array of objects returned, get the one matching your id from the request
+// remove it from the array
+// save the array back in db.json just as above
