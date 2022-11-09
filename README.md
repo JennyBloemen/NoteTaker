@@ -26,7 +26,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 <h3>Links to Page and Walk Through</h3>
   <ul>
     <li>GitHub Repo: https://github.com/JennyBloemen/NoteTaker.git </li>
-    <li>Screencastify Walk Through: https://drive.google.com/file/d/1_pWCL1GwYHYDTvoPGGRzwOh5g_nopbFI/view?usp=sharing </li>
+    <li>Screencastify Walk Through: https://drive.google.com/file/d/1fFg2vlu0h2N_Tf7SRMDsrgWST6Zszvtl/view </li>
   </ul> 
   <br>
 <img src="./assets/walkthrough.gif"width="518" height="345"/>

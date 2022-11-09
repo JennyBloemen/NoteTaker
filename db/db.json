@@ -1,12 +1,1 @@
-[
-  {
-    "title": "Grocery List",
-    "text": "Potatoes\nGravy\nCarrots\nRolls",
-    "id": "1a66e3b4-d502-4734-b39b-454cd195907a"
-  },
-  {
-    "title": "Christmas - Sadie",
-    "text": "Makeup\nBedding\nAirpods",
-    "id": "2f71163b-8860-4784-b169-88057223155c"
-  }
-]
+[{"title":"Grocery List","text":"Potatoes\nGravy\nCarrots\nRolls","id":"1a66e3b4-d502-4734-b39b-454cd195907a"},{"title":"Christmas - Sadie","text":"Makeup\nBedding\nAirpods","id":"2f71163b-8860-4784-b169-88057223155c"},{"title":"Christmas - Porter","text":"Skateboard","id":"7db1030a-6ff9-4c5c-a642-8ad364293f83"},{"title":"Christmas - Hailey","text":"Basketball\nTumbling clothing","id":"0fddb635-7b16-4f2c-9f99-4d36e2d8bb4e"}]
