@@ -32,10 +32,9 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 <img src="/public/assets/images/NoteTakerWalkThrough.gif">
  
 <h3>Screenshot of Application</h3>
-<img src="/public/assets/images/Screenshot 2022-11-09 143944.png"width="518" height="345"/>
+
 
 ![ScreenShot of Application](images/Screenshot 2022-11-09 143944.png)
-![ScreenShot of Application](images/Screenshot2.png)
 
 <br>
 <h3>Tools</h3>
