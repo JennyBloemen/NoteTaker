@@ -36,7 +36,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 <img src = "/public/assets/images/Screenshot_NoteTaker.jpg">
 <br>
 ![ScreenShot of Application](images/Screenshot 2022-11-09 143944.png)
-![ScreenShot of Application](Screenshot 2022-11-09 143944.png)
+
 <br>
 <h3>Tools</h3>
 <ul>
