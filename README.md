@@ -29,7 +29,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
     <li>Screencastify Walk Through: https://drive.google.com/file/d/1fFg2vlu0h2N_Tf7SRMDsrgWST6Zszvtl/view </li>
   </ul> 
   <br>
-<img src="/public/assets/images/NoteTakerWalkThrough.gif"width="518" height="345">
+<img src="/public/assets/images/NoteTakerWalkThrough.gif">
  
 <h3>Screenshot of Application</h3>
 <img src="/public/assets/images/Screenshot 2022-11-09 143944.png"width="518" height="345"/>
